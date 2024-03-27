@@ -1,0 +1,76 @@
+body ::before{
+      content:"";
+      position: absolute;
+      top:-20vh;
+      left:0vh;
+      height:200%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.05);
+      z-index:-1;
+}
+body{
+  position: relative;
+  text-align: center;
+  margin: 0 0 0 0;
+  background-color:#0e0f12;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image:url(../Img/HomePageBackGround2.png);
+  background-size:cover;
+  background-position:center;
+}
+.container .Main-Header{
+   font-family: "Bungee Spice", sans-serif;
+   font-weight:900;
+   font-size:300%;
+   margin : 20vh 0 0 0;
+}
+.container .Sub-Header .content-header{
+  margin:3vh 0 3vh 0;
+  font-size:40px;
+  font-weight:500;
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
+.container .Sub-Header .content-main{
+  text-align:center;
+  margin: 0 0 5vh 0;
+  font-size:30px;
+  font-weight:200;
+  font-family: "Workbench", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+  "BLED" 0,
+  "SCAN" 0;
+  color: #e9e0e0;
+}
+button{
+     padding: 12px 22px;
+     font-size:22px;
+     border-radius:20px;
+     font-weight:200;
+     font-family: "Bungee Spice", sans-serif;
+     border-color:#f36c06;
+     animation:hovering 4s infinite;
+}
+button:hover{
+       transform: scale(1.03);
+       font-weight:900;
+       background-color: #f36c06;
+       font-family: 'Courier New', Courier, monospace;
+       color: #ffff;
+       border-color: #ffff;
+}
+@keyframes hovering{
+  0% { transform: scale(1); }
+  50% { transform: scale(1.07); }
+  100% { transform: scale(1); }
+}
+
+
+

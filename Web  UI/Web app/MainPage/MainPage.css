@@ -1,0 +1,84 @@
+body{
+    text-align: center;
+    margin: 50vh 0 0 0;
+    background-color:#0e0f12;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container .enteraword{
+    text-align: center;
+    font-size:33px;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight:900;
+}
+#userInput{
+    padding: 10px 10px;
+    text-align:justify;
+    font-size: 30px;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+    border-radius:16px;
+}
+.container #Verify{
+    font-size:25px;
+    text-align: center;
+    margin:0 0 0 1.5vh;
+    padding:10px 10px;
+    border-radius:13px;
+    font-weight:200;
+    font-family: "Bungee Spice", sans-serif;
+    border-color:#f36c06;
+}
+.container #Verify:hover{
+    transform: scale(1.1);
+}
+.container #ReturntoHome{
+    font-size:22px;
+    text-align: center;
+    margin : 10vh 0 4vh 0;
+    padding:10px 10px;
+    border-radius:17px;
+    font-weight:200;
+    font-family: "Bungee Spice", sans-serif;
+    border-color:#f36c06;
+}
+.container #ReturntoHome:hover{
+    font-size:23px;
+}
+#result{
+    font-size:30px;
+    position: relative;
+    top:-70vh;
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+    color: #ffff;
+}
+
+.correct #correct-tick{
+  display:none;
+  color: #f36c06;
+  font-size: 200px;
+  position: absolute;
+  left:45vw;
+  bottom:60vh;
+}
+
+.wrong #wrong-tick{
+    display:none;
+    color: #f36c06;
+    font-size: 200px;
+    position: absolute;
+    left:45vw;
+    bottom:60vh;
+  }

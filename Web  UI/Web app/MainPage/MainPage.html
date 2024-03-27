@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Honk&family=Nabla&family=Workbench&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"  href="MainPage.css">
+    <audio id="correct-sound" src="../Sound/success_bell-6776.mp3"></audio>
+    <audio id="error-sound"   src="../Sound/error-126627.mp3"></audio>
+    <script src="MainPage.js" defer></script>
+    <script src="https://kit.fontawesome.com/da9c510806.js" crossorigin="anonymous"></script>
+    <title>PalCheck</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1 class="enteraword">
+                <p>What's your word?</p>
+            </h1>
+            <input type="text" id="userInput" placeholder="Enter a word">
+            <button onclick="checkPalindrome()" id="Verify">Verify</button> <br>
+            <a href="../HomePage/HomePage.html">
+                <button type="button" id="ReturntoHome">     
+                    Return to HomePage
+                </button>
+            </a>
+            <div id="result"></div>
+        </div>
+        <div class="correct">
+          <i class="fa fa-check-circle" aria-hidden="true" id="correct-tick" 
+          ></i>
+        </div>
+        <div class="wrong">
+            <i class="fa-solid fa-circle-xmark" id="wrong-tick"></i>
+        </div>
+    </main>
+</body>
+</html>
