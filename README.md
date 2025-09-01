@@ -23,7 +23,8 @@ Copy code
 cd Group5-PalCheck
 Open index.html in your favorite browser—no server needed!
 
-Usage
+## Usage
+
 Just type text into the input field.
 
 The app will check in real time if the text reads the same backward and forward.
